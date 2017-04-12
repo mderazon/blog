@@ -3,6 +3,7 @@ baseURL = "https://www.drzon.net/"
 languageCode = "en-us"
 Copyright = "All rights reserved - 2017"
 canonifyurls = true
+DisqusShortname = "drzone"
 
 [params]
   # description = "this is my description"
