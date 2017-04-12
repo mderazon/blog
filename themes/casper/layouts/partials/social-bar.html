@@ -1,0 +1,62 @@
+{{ if .Site.Params.linkedinName }}
+    <a class="cb-linkedin fa-stack fa-lg" href="https://www.linkedin.com/in/{{ .Site.Params.linkedinName }}" title="{{.Site.Params.author}}'s LinkedIn" target="_blank">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+    </a>
+&nbsp;
+{{end}}
+{{ if .Site.Params.githubName }}
+    <a class="cb-github fa-stack fa-lg" href="https://github.com/{{ .Site.Params.githubName }}" title="{{.Site.Params.author}}'s Github" target="_blank">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+    </a>
+&nbsp;
+{{end}}
+{{ if .Site.Params.flickrName }}
+    <a class="cb-flickr fa-stack fa-lg" href="https://flickr.com/{{ .Site.Params.flickrName }}" title="{{.Site.Params.author}}'s LinkedIn" target="_blank">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+    </a>
+&nbsp;
+{{end}}
+{{ if .Site.Params.twitterName }}
+    <a class="cb-twitter fa-stack fa-lg" href="https://twitter.com/{{ .Site.Params.twitterName }}" title="{{.Site.Params.author}}'s Twitter" target="_blank">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+    </a>
+&nbsp;
+{{end}}
+{{ if .Site.Params.facebookName }}
+    <a class="cb-facebook fa-stack fa-lg" href="https://facebook.com/{{ .Site.Params.facebookName }}" title="{{.Site.Params.author}}'s Facebook" target="_blank">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+    </a>
+&nbsp;
+{{end}}
+{{ if .Site.Params.instagramName }}
+    <a class="cb-instagram fa-stack fa-lg" href="https://instagram.com/{{ .Site.Params.instagramName }}" title="{{.Site.Params.author}}'s Instagram" target="_blank">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+    </a>
+&nbsp;
+{{end}}
+{{ if .Site.Params.email }}
+    <a class="cb-email fa-stack fa-lg" href="mailto:{{ .Site.Params.email }}" title="{{.Site.Params.author}}'s email" target="_blank">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-mail fa-stack-1x fa-inverse"></i>
+    </a>
+{{end}}
+{{ if .Site.Params.pinterestName }}
+    <a class="cb-pinterest fa-stack fa-lg" href="https://www.pinterest.com/{{ .Site.Params.pinterestName }}" title="{{.Site.Params.author}}'s pinterest" target="_blank">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-pinterest-alt fa-stack-1x fa-inverse"></i>
+    </a>
+&nbsp;
+{{end}}
+{{ if .Site.Params.googlePlusName }}
+    <a class="cb-google-plus fa-stack fa-lg" href="https://google.com/+{{ .Site.Params.googlePlusName }}" title="{{.Site.Params.author}}'s Google Plus" target="_blank">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-google-plus-alt fa-stack-1x fa-inverse"></i>
+    </a>
+&nbsp;
+{{end}}
