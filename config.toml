@@ -1,5 +1,5 @@
 title = "Code and stuff"
-baseURL = "https://drzon.net"
+baseURL = "https://www.drzon.net/"
 languageCode = "en-us"
 Copyright = "All rights reserved - 2017"
 canonifyurls = true
@@ -9,7 +9,7 @@ canonifyurls = true
   cover = "images/cover.jpg"
   author = "Michael DeRazon"
   authorlocation = "New York, USA"
-  authorwebsite = "https://drzon.net"
+  authorwebsite = "https://www.drzon.net"
   # bio= "my bio"
   logo = "images/selfie.png"
   # googleAnalyticsUserID = "UA-79101-12"
