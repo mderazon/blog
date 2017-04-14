@@ -1138,6 +1138,10 @@ body:not(.post-template) .post-title {
     transform: translateX(-50%);
 }
 
+.post-content {
+    padding-top: 2em;
+}
+
 /* The author credit area after the post */
 .post-footer {
     position: relative;
