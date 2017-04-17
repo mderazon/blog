@@ -33,6 +33,7 @@ There wasn't really any particular reason for this choice other than nicely symm
 
 ### Solution #1 - Generate and validate
 The first approach for this problem is:
+
 1. Generate a random 14 digits number.
 2. Search for this number in database to see if we had it before (unique).
 3. If we found it, try another one. If it's unique, use it.
@@ -124,6 +125,7 @@ I have created a small node library that uses this method to encrypt digits or o
 
 ### Summary
 To wrap things up, here are the steps to generate an almost unique randomly looking order number:
+
 1. Get current Unix time (ms).
 2. Add another random digit to complete 14 digits.
 3. Encrypt with FPE
@@ -137,6 +139,7 @@ The order number is not guaranteed to be unique. Two orders will have the same o
 It's important to understand the probability for a collision to see if this can work reasonable in a real system.
 
 Let's divide this event into two separate probabilities and then multiply them to get the final probability:
+
 1. P(two orders at the same ms)
 2. P(two orders with the same padding digit)
 
@@ -173,5 +176,6 @@ This was a nice try for me to think of a way to create random numbers without ne
 Therefor I think that the preferred solution is still to generate a random number and validate it's unique.
 
 You can see the code mentioned in this post here:
+
 1. [node-fpe](https://github.com/mderazon/node-fpe) - Format preserving encryption for Node.js.
 2. [order-id](https://github.com/mderazon/order-id) - Time based library for generating random looking order numbers.
