@@ -13,7 +13,7 @@ DisqusShortname = "drzone"
   authorwebsite = "https://www.drzon.net"
   # bio= "my bio"
   logo = "images/selfie.png"
-  # googleAnalyticsUserID = "UA-79101-12"
+  googleAnalyticsUserID = "UA-44481923-1"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   # RSSLink = "http://feeds.feedburner.com/..."
   githubName = "mderazon"
